@@ -1,21 +1,19 @@
 {
   "name": "bird-auth",
-  "version": "2.4.1",
+  "version": "2.5.1",
   "description": "get cookie and then you can use it with birdv1",
   "main": "index.js",
   "dependencies": {
     "big-integer": "^1.6.22",
-    "lodash": "^4.13.1",
     "lodash.union": "^4.6.0",
     "node-jsencrypt": "^1.0.0",
-    "querystring": "^0.2.0",
     "yargs": "^4.8.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "bird-auth": "./bird-auth.js"
+    "bird-auth": "bird-auth.js"
   },
   "author": "gismanli@163.com",
   "license": "MIT",
